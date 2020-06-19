@@ -240,4 +240,4 @@ These are not part of the core requirements but are things that could be worked 
   * Password Hashing
   * Paging ans Sorting endpoints: [Reference For How](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design#filter-and-paginate-data)
   * Using JSON Web Tokens (JWTs) instead of Session Storage
-  * Being able to submit receipts. (I would recommend using AWS S3 buckets for this but if you do be cautious of including AWS Access Keys in your application)
+  * Being able to submit receipts. (I would recommend using AWS S3/GCP Cloud Storage buckets for this but if you do be cautious of including Access Keys in your application)
